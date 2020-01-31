@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    div.article{
+        width:80%;
+        margin:0 auto;
+        column-count: 3; column-gap: 30px;
+        column-rule-style: solid;
+        column-rule-width: 2px;
+        column-rule-color: #000;
+        background: #012051;
+        color:#fff; padding:10px;
+    }
+    @media only screen and (max-width: 768px){
+        div.article{
+            width:80%;
+            margin: 0 auto;
+            column-count: 2; column-gap: 30px;
+            column-rule-style: solid;
+            column-rule-width: 2px;
+            column-rule-color: #000;
+            background:#50011a;
+            color:#fff; padding:10px;
+        }
+    }
+    @media only screen and (max-width:600px){
+        div.article{
+            width:80%;
+            margin: 0 auto;
+            column-count: 1; column-gap: 30px;
+            column-rule-style: solid;
+            column-rule-width: 2px;
+            column-rule-color: #000;
+            background:#00510c;
+            color:#fff; padding:10px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="article">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel eveniet minus dignissimos, doloribus possimus excepturi modi dolores optio commodi consequatur, at aliquam quia. Incidunt, nam optio? Praesentium fugiat cumque facere?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa autem quisquam voluptatibus aliquid unde aperiam, consequuntur saepe tempora in cum esse aliquam quaerat, consectetur harum dolore corrupti quas voluptatum eveniet?
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos odio voluptatibus officia, saepe provident voluptates doloremque minus fugiat deleniti ut voluptas enim quasi, iure, maxime labore sit a temporibus. Ipsa.
+        </p>
+    </div>
+</body>
+</html>
